@@ -1,0 +1,60 @@
+.navbarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom:2em;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+
+.redesButton {
+    background: none;
+    border: 0;
+}
+
+.redesButton:hover {
+    box-shadow: 1px 1px 15px 4px rgba(62, 151, 102, 0.356);
+    transition-duration: 300ms;
+    background: none;
+}
+
+.linkButton {
+    background: none;
+    border: 0;
+}
+
+.linkButton:hover {
+    box-shadow: 1px 1px 15px 4px rgba(62, 151, 102, 0.356);
+    transition-duration: 300ms;
+    background: none;
+    color: #338048cc;
+}
+
+.redesSection {
+    display: flex;
+    margin-left:1.5em;
+    justify-content: space-between;
+    width: 10vw;
+}
+
+.enlacesSection {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    background: transparent;
+    border: none;
+    font-weight:bold;
+    font-size: 1em;
+    margin-right: 1.5em;
+    transition-duration: 300ms;
+    a {
+        color: white;
+        border: none;
+        background-color: transparent;
+    }
+
+}
+
+

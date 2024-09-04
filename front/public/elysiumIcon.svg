@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="750px" height="600px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 750 600"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#E3E3E3}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <rect x="-509.03" y="157.21" width="333.33" height="333.33"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g style="clip-path:url(#id0)">
+   <image x="-509.03" y="157.21" width="333.33" height="333.33" xlink:href="elysiumIcon_Images\elysiumIcon_ImgID1.png"/>
+  </g>
+  <path class="fil0" d="M-487.71 324.03l145.36 -147.24 83.7 84.79 -0.28 33.47 -83.42 -84.51 -129.46 129.71 -15.9 -16.22zm28.17 28.18l117.19 -118.31 55.79 56.88 -0.28 33.47 -55.51 -56.6 -101.29 100.78 -15.9 -16.22zm262.52 -28.49l-145.35 147.24 -83.71 -84.79 0.28 -33.47 83.43 84.51 129.45 -129.71 15.9 16.22zm-28.17 -28.18l-117.18 118.31 -55.79 -56.88 0.28 -33.47 55.51 56.6 101.29 -100.78 15.89 16.22zm-117.17 21.91c3.55,0 6.42,2.88 6.42,6.42 0,3.55 -2.87,6.43 -6.42,6.43 -3.55,0 -6.43,-2.88 -6.43,-6.43 0,-3.54 2.88,-6.42 6.43,-6.42z"/>
+ </g>
+</svg>

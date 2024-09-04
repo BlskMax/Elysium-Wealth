@@ -1,0 +1,21 @@
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100vw;
+    margin-top: 8em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageLeft {
+    width: 50vw;
+    height: fit-content;
+    margin-left: 3em;
+}
+
+.imageRight {
+    width: 36vw;
+    height: fit-content;
+    margin-right:3em;
+}

@@ -1,0 +1,233 @@
+.main {
+  object-fit: scale-down;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  /* background-color: #111927;
+  background-image: 
+      radial-gradient(at 47% 33%, hsl(240.00, 19%, 9%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(216.18, 100%, 14.000000000000002%) 0, transparent 55%); */
+  font-family: "Roboto", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+}
+
+.bigContainer {
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(160px) saturate(188%);
+  -webkit-backdrop-filter: blur(16px) saturate(188%);
+  background-color: rgba(21, 40, 29, 0.274);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border-radius: 20px; 
+  height: 112vh;
+  width: 40vw;
+  margin-top: 3em;
+  margin-left: 3em;
+  margin-right: 6em;
+  padding: 3vw;
+  
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.inputText {
+  color: #eee;
+  font-family: robo;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.inputContainer {
+  height: 4.5vh;
+  position: relative;
+  width: 17vw;
+  margin-top: 1em;
+  margin-bottom: 5em;
+  margin-right: 2.5em;
+
+}
+
+/* .ic2 {
+} */
+
+.input {
+  backdrop-filter: blur(16px) saturate(138%);
+  -webkit-backdrop-filter: blur(16px) saturate(138%);
+  background-color: #1f2a37ad;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 18px;
+  height: 6.6vh;
+  outline: thin;
+  border: .5px solid #5f5f5f60;
+  padding: 4px 20px 0;
+  width: 100%;
+
+}
+
+
+.input:hover, 
+.input:focus{
+  border: .5px solid #41ac5fcc;
+  transition-duration: 300ms;
+    
+}
+
+
+
+.buttonContainer {
+  display: flex;
+  flex-direction: Row;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+.submit {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color:#338048cc;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border: 1.5px solid;
+  border-color: rgba(94, 94, 94, 0.219);
+  font-weight: normal;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  height: 7vh;
+  width: 8vw;
+  justify-content: center;
+  align-content: center;
+  margin-right: 2em;
+}
+
+.submit:hover,
+.submit:focus {
+  transform: scale(1.02);
+  transition-duration: 500ms;
+  box-shadow: 1px 3px 15px 4px rgba(169, 69, 255, 0.055);
+  cursor: pointer;
+  background-color:   #0e461e75;
+  border-color: rgb(255, 255, 255);
+}
+
+.reset {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: #0e461e75;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  border: 1.5px solid;
+  border-color: rgb(255, 255, 255, 0.582);
+  font-weight: normal;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.582);
+  font-size: 18px;
+  height: 7vh;
+  width: 8vw;
+}
+
+.reset:hover,
+.reset:focus {
+  transform: scale(1.02);
+  transition-duration: 500ms;
+  box-shadow: 1px 3px 15px 4px rgba(169, 69, 255, 0.055);
+  cursor: pointer;
+  background-color:  rgb(15, 15, 15);
+  border-color: rgb(255, 255, 255);
+}
+
+.header {
+  color:#e3e3e3;
+  font-weight:400;
+  margin-bottom: .2em;
+  margin-top: 0;
+}
+
+.parraph {
+  color:#e0e0e0 ;
+  font-size: larger;
+  margin-bottom: 1.2em;
+}
+
+.header2 {
+  color:#e3e3e3;
+  font-weight:400;
+  height: 1vh;
+  margin-bottom: 1.5em;
+  width: 20vw;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  margin-top: 2em;
+
+}
+.unRegistered {
+  color: white;
+  font-weight: 400;
+}
+
+.link {
+  color: rgb(0, 153, 255);
+  font-weight: 500;
+  margin-left: 1em;
+}
+
+.formImage {
+  width: 40vw;
+  height: auto;
+}
+/* label {
+  color: white;
+  width: 3vw;
+  font-weight: bold;
+}
+
+
+div.genre-checkboxes {
+  width: 32vw;
+  margin-top: 3em;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+  
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .formContainer {
+  background-color: green;
+  width: 300vw;
+  height: 300vh;
+} */

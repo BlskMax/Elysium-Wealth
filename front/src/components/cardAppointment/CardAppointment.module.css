@@ -1,0 +1,40 @@
+.appointment {
+    width: 20vw;
+    height: 20vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    backdrop-filter: blur(160px) saturate(188%);
+    -webkit-backdrop-filter: blur(16px) saturate(188%);
+    background-color: rgba(21, 40, 29, 0.274);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    border-radius: 12px;
+    color: #e3e3e3;
+    padding: 2vw; 
+    text-align: center;
+    text-overflow: clip;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.description {
+ color: #e3e3e3c9;
+ font-style: italic;
+}
+
+.status {
+    color: rgb(190, 156, 2);
+}
+
+
+.statusCancelled {
+    color: rgba(190, 156, 0, 0.507);
+}

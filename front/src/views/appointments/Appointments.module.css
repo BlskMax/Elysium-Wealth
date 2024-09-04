@@ -1,0 +1,13 @@
+.appointmentsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vw; 
+    justify-content: center; 
+    padding: 20px; 
+ 
+}
+
+.noAppointments {
+    color:aliceblue; 
+    font-weight: bold;
+}
